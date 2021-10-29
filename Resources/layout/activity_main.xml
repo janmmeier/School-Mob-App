@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center">
+        <Button
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/addButton"/>
+        <Button
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/subButton" />
+        <Button
+            android:text="*"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/multButton" />
+        <Button
+            android:text="/"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/divButton" />
+    </LinearLayout>
+    <TextView
+        android:text="Vastus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/anwserTextView"
+        android:textSize="60dp"
+        android:layout_gravity="center" />
+</LinearLayout>
